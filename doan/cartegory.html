@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../doan/style.css" >
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Project</title>
+</head>
+<body>
+    <div class="toggle" id="toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    <header> 
+        <div class="logo">
+            <img src="../image/logo2.jpg" alt="">
+        </div>
+        <nav id="tool">
+            <div class="menu">
+                <li><a href="../index.html">TRANG CHỦ</a></li>
+                <li><a href="">NỮ</a>
+                    <i class="fa-light fa-arrow-right-long-to-line"></i>
+                    <ul class="sub-menu">
+                        <li><a href="../doan/cartegory.html">Mới nhất</a></li>
+                        <li><a href="">Áo</a>
+                            <ul class="ssmenu">
+                                <li><a href="">Áo sơ mi</a></li>
+                                <li><a href="">Vest</a></li>
+                                <li><a href="">Áo len</a></li>
+                                <li><a href="">Áo khoác</a></li>
+                                <li><a href="">Áo pull</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Quần</a>
+                            <ul class="ssmenu">
+                                <li><a href="">Quần Jean</a></li>
+                                <li><a href="">Quần lững</a></li>
+                                <li><a href="">Quần dài</a></li>
+                                <li><a href="">Quần thun</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Váy</a></li>
+                    </ul>
+                </li>
+                <li><a href="">NAM</a>
+                    <i class="fa-light fa-arrow-right-long-to-line"></i>
+                    <ul class="sub-menu">
+                        <li><a href="">Mới nhất</a></li>
+                        <li><a href="">Áo</a>
+                            <ul class="ssmenu">
+                                <li><a href="">Áo sơ mi</a></li>
+                                <li><a href="">Áo pull</a></li>
+                                <li><a href="">Áo khoác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Quần</a>
+                            <ul class="ssmenu">
+                                <li><a href="">Quần Jean</a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Vest</a></li>
+                    </ul>
+                </li>
+                <li><a href="">TRẺ EM</a>
+                    <i class="fa-light fa-arrow-right-long-to-line"></i>
+                    <ul class="sub-menu3">
+                        <li><a href="">Mới nhất</a></li>
+                        <li><a href="">Đồ bộ nam</a></li>
+                        <li><a href="">Đồ bộ nữ</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Váy</a></li>
+                    </ul>
+                </li>
+                <li><a href="">SALE</a>
+                </li>
+                <li><a href="">BỘ SƯU TẬP</a></li>
+            </div>
+        </nav>
+
+        <div class="other">
+            <li><input style="border: none;border-bottom: 1px solid #333;" placeholder="Tìm kiếm" type="text"><i class="fa fa-search"></i></li>
+            <li><a class="fa fa-paw" href=""></a></li>
+            <li><a class="fa fa-user" href=""></a></li>
+            <li><a class="fa fa-shopping-bag" href=""></a></li>
+        </div>
+    </header>
+    <!------------------------------- cartegory----------------------------------------------- -->
+    <section class="cartegory" id="cartegoryaqua" >
+        <div class="container">
+            <div class="catergory-top row">
+                <p>Trang chủ</p><span>&#10230;</span><p>Nữ</p><span>&#10230;</span><p>Hàng mới nhất</p>
+            </div>
+            <div class="none" style="display: flex;">
+                <div class="catergory-left">
+                    <ul>
+                        <li class="catergory-left-li"><a  href="#">NỮ</a>
+                            <ul>
+                                <li><a href="">HÀNG MỚI VỀ</a></li>
+                                <li><a href="">ÁO</a></li>
+                                <li><a href="">QUẦN</a></li>
+                            </ul>
+                        </li>
+                        <li class="catergory-left-li" ><a href="#">NAM</a>
+                            <ul>
+                                <li><a href="">HÀNG MỚI VỀ</a></li>
+                                <li><a href="">VEST</a></li>
+                                <li><a href="">ÁO</a></li>
+                                <li><a href="">QUẦN</a></li>
+                            </ul>
+                        </li>
+                        <li class="catergory-left-li"><a href="#">TRẺ EM</a>
+                            <ul>
+                                <li><a href="">HÀNG MỚI VỀ</a></li>
+                                <li><a href="">ÁO</a></li>
+                                <li><a href="">QUẦN</a></li>
+                            </ul></li>
+                        <li class="catergory-left-li"><a href="#">BỘ SƯU TẬP</a></li>
+                    </ul>
+                </div>
+                <div class="catergory-right row">
+                    <div class="catergory-right-top row">
+                        <div class="catergory-right-top-items" >
+                            <p>HÀNG MỚI VỀ</p>
+                        </div>
+                        <div class="catergory-right-top-items">
+                            <button><span>BỘ LỌC</span><I class="fas fa-sort-down"></I></button>
+                        </div>
+                        <div class="catergory-right-top-items">
+                            <select name="" id="">
+                                <option value="">Sắp xếp</option>
+                                <option value="">Giá cao đến thấp</option>
+                                <option value="">Giá thấp đến cao</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="catergory-right-content row">
+                        <div class="catergory-right-content-items">
+                            <div class="name">
+                                <img src="../image/aoco.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>ÁO CỔ THẮT NƠ</h1>
+                            <P>320.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+                            <div class="name">
+                                <img src="../image/anhaocoduc1.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>ÁO CỔ ĐỨC</h1>
+                            <P>320.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+                            <div class="name">
+                                <img src="../image/aopeterpan.jpg" alt="">
+                                <button type="button" onclick="location.href='../doan/produc.html'">Xem thêm</button>
+                            </div>
+                            <h1>ÁO PETER PAN</h1>
+                            <button>Xem thêm</button>
+                            <P>210.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/aopharen.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>ÁO PAREN</h1>
+                            <P>250.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/quanbaggy.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>QUẦN BAGGY MẪU 1</h1>
+                            <P>360.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/quanbaggy2.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>>QUẦN BAGGY MẪU 2</h1>
+                            <P>400.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/quạnean.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>QUẦN JEANC</h1>
+                            <P>420.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/quánuongden.jpg" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>QUẦN ỐNG ĐEN</h1>
+                            <P>450.000<sup>đ</sup></P>
+                        </div>
+                        <div class="catergory-right-content-items">
+
+                            <div class="name">
+                                <img src="../image/jeandemsuongxanh.jfif" alt="">
+                                <button>Xem thêm</button>
+                            </div>
+                            <h1>QUẦN JEAN ĐEN ỐNG SUÔNG XANH</h1>
+                            <P>450.000<sup>đ</sup></P>
+                        </div>
+                    </div>
+                    <div class="catergory-right-bottom row">
+                        <div class="catergory-right-bottom-items">
+                            <p> Hiển thị 2<span>|</span> 4 sản phẩm</p>
+                        </div>
+                        <div class="catergory-right-bottom-items">
+                            <p><span>&#171;<span> 1 2 3 4 5 </span>&#187;</span>Trang cuối</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+     
+        </div>
+    </section>
+    <!-----------------------------foster-------------------------------- -->
+    <section class="app-container">
+        <p>Tải ứng dụng Fashion Web</p>
+        <div class="app-google">
+            <img src="../image/appstore.png" alt="">
+            <img src="../image/ggplay.png" alt="">
+        </div>
+        <p>NHập thông tin Fashion Web</p>
+        <input type="text" placeholder="Nhập email của bạn">
+    </section>
+
+    <div class="foster-top">
+        <li><a href=""><img src="../image/thongbao.webp" alt=""></a></li>
+        <li><a href="">Liên hệ</a></li>
+        <li><a href="">Tuyển dụng</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li>
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter "></a>
+            <a href="" class="fab fa-youtube"></a>
+        </li>
+    </div>
+    <div class="foster-center">
+        <p style="text-align: center;">
+            Địa chỉ:470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng, Việt Nam-0356 345 456 <br>
+            Đặt hàng online: <b>0356 435 634</b>.
+        </p>
+    </div>
+    <div class="foster-bottom">
+        Web All right reserved  
+    </div>
+</body>
+<script>
+    const header=document.querySelector("header")
+    window.addEventListener("scroll",function(){
+        x=window.pageYOffset
+        if(x>0){
+            header.classList.add("sticky")
+        }
+        else{header.classList.remove("sticky")}
+    })
+    const itemslide3=document.querySelectorAll(".catergory-left-li ")
+    itemslide3.forEach(function(menu,index){
+         menu.addEventListener("click",function(){
+             menu.classList.toggle("block")
+         })
+    })
+    $(document).ready(function() {
+        $("#toggle").click(function() {
+            $("#tool").slideToggle();
+        });
+    });
+</script>
+</html>
